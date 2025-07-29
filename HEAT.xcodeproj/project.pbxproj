@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D441402E3914A200FD1169 /* HEAT Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 84D4413F2E3914A200FD1169 /* HEAT Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D4412A2E3914A200FD1169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D441142E39149F00FD1169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D4411B2E3914A000FD1169;
+			remoteInfo = HEAT;
+		};
+		84D441342E3914A200FD1169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D441142E39149F00FD1169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D4411B2E3914A000FD1169;
+			remoteInfo = HEAT;
+		};
+		84D441412E3914A200FD1169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D441142E39149F00FD1169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D4413E2E3914A200FD1169;
+			remoteInfo = "HEAT Watch App";
+		};
+		84D4414F2E3914A300FD1169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D441142E39149F00FD1169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D4413E2E3914A200FD1169;
+			remoteInfo = "HEAT Watch App";
+		};
+		84D441592E3914A300FD1169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D441142E39149F00FD1169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D4413E2E3914A200FD1169;
+			remoteInfo = "HEAT Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84D441652E3914A300FD1169 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				84D441402E3914A200FD1169 /* HEAT Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84D4411C2E3914A000FD1169 /* HEAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HEAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D441292E3914A200FD1169 /* HEATTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEATTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D441332E3914A200FD1169 /* HEATUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HEATUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D4413F2E3914A200FD1169 /* HEAT Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HEAT Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D4414E2E3914A300FD1169 /* HEAT Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HEAT Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D441582E3914A300FD1169 /* HEAT Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HEAT Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		84D4411E2E3914A000FD1169 /* HEAT */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HEAT;
+			sourceTree = "<group>";
+		};
+		84D4412C2E3914A200FD1169 /* HEATTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HEATTests;
+			sourceTree = "<group>";
+		};
+		84D441362E3914A200FD1169 /* HEATUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HEATUITests;
+			sourceTree = "<group>";
+		};
+		84D441432E3914A200FD1169 /* HEAT Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HEAT Watch App";
+			sourceTree = "<group>";
+		};
+		84D441512E3914A300FD1169 /* HEAT Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HEAT Watch AppTests";
+			sourceTree = "<group>";
+		};
+		84D4415B2E3914A300FD1169 /* HEAT Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HEAT Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D441192E3914A000FD1169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D441262E3914A200FD1169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D441302E3914A200FD1169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4413C2E3914A200FD1169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4414B2E3914A300FD1169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D441552E3914A300FD1169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D441132E39149F00FD1169 = {
+			isa = PBXGroup;
+			children = (
+				84D4411E2E3914A000FD1169 /* HEAT */,
+				84D4412C2E3914A200FD1169 /* HEATTests */,
+				84D441362E3914A200FD1169 /* HEATUITests */,
+				84D441432E3914A200FD1169 /* HEAT Watch App */,
+				84D441512E3914A300FD1169 /* HEAT Watch AppTests */,
+				84D4415B2E3914A300FD1169 /* HEAT Watch AppUITests */,
+				84D4411D2E3914A000FD1169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D4411D2E3914A000FD1169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D4411C2E3914A000FD1169 /* HEAT.app */,
+				84D441292E3914A200FD1169 /* HEATTests.xctest */,
+				84D441332E3914A200FD1169 /* HEATUITests.xctest */,
+				84D4413F2E3914A200FD1169 /* HEAT Watch App.app */,
+				84D4414E2E3914A300FD1169 /* HEAT Watch AppTests.xctest */,
+				84D441582E3914A300FD1169 /* HEAT Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D4411B2E3914A000FD1169 /* HEAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D441662E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEAT" */;
+			buildPhases = (
+				84D441182E3914A000FD1169 /* Sources */,
+				84D441192E3914A000FD1169 /* Frameworks */,
+				84D4411A2E3914A000FD1169 /* Resources */,
+				84D441652E3914A300FD1169 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D441422E3914A200FD1169 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84D4411E2E3914A000FD1169 /* HEAT */,
+			);
+			name = HEAT;
+			packageProductDependencies = (
+			);
+			productName = HEAT;
+			productReference = 84D4411C2E3914A000FD1169 /* HEAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D441282E3914A200FD1169 /* HEATTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D441692E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEATTests" */;
+			buildPhases = (
+				84D441252E3914A200FD1169 /* Sources */,
+				84D441262E3914A200FD1169 /* Frameworks */,
+				84D441272E3914A200FD1169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D4412B2E3914A200FD1169 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84D4412C2E3914A200FD1169 /* HEATTests */,
+			);
+			name = HEATTests;
+			packageProductDependencies = (
+			);
+			productName = HEATTests;
+			productReference = 84D441292E3914A200FD1169 /* HEATTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D441322E3914A200FD1169 /* HEATUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D4416C2E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEATUITests" */;
+			buildPhases = (
+				84D4412F2E3914A200FD1169 /* Sources */,
+				84D441302E3914A200FD1169 /* Frameworks */,
+				84D441312E3914A200FD1169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D441352E3914A200FD1169 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84D441362E3914A200FD1169 /* HEATUITests */,
+			);
+			name = HEATUITests;
+			packageProductDependencies = (
+			);
+			productName = HEATUITests;
+			productReference = 84D441332E3914A200FD1169 /* HEATUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		84D4413E2E3914A200FD1169 /* HEAT Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D441622E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEAT Watch App" */;
+			buildPhases = (
+				84D4413B2E3914A200FD1169 /* Sources */,
+				84D4413C2E3914A200FD1169 /* Frameworks */,
+				84D4413D2E3914A200FD1169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				84D441432E3914A200FD1169 /* HEAT Watch App */,
+			);
+			name = "HEAT Watch App";
+			packageProductDependencies = (
+			);
+			productName = "HEAT Watch App";
+			productReference = 84D4413F2E3914A200FD1169 /* HEAT Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D4414D2E3914A300FD1169 /* HEAT Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D4416F2E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEAT Watch AppTests" */;
+			buildPhases = (
+				84D4414A2E3914A300FD1169 /* Sources */,
+				84D4414B2E3914A300FD1169 /* Frameworks */,
+				84D4414C2E3914A300FD1169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D441502E3914A300FD1169 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84D441512E3914A300FD1169 /* HEAT Watch AppTests */,
+			);
+			name = "HEAT Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "HEAT Watch AppTests";
+			productReference = 84D4414E2E3914A300FD1169 /* HEAT Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D441572E3914A300FD1169 /* HEAT Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D441722E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEAT Watch AppUITests" */;
+			buildPhases = (
+				84D441542E3914A300FD1169 /* Sources */,
+				84D441552E3914A300FD1169 /* Frameworks */,
+				84D441562E3914A300FD1169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D4415A2E3914A300FD1169 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				84D4415B2E3914A300FD1169 /* HEAT Watch AppUITests */,
+			);
+			name = "HEAT Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "HEAT Watch AppUITests";
+			productReference = 84D441582E3914A300FD1169 /* HEAT Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D441142E39149F00FD1169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					84D4411B2E3914A000FD1169 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					84D441282E3914A200FD1169 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 84D4411B2E3914A000FD1169;
+					};
+					84D441322E3914A200FD1169 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 84D4411B2E3914A000FD1169;
+					};
+					84D4413E2E3914A200FD1169 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					84D4414D2E3914A300FD1169 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 84D4413E2E3914A200FD1169;
+					};
+					84D441572E3914A300FD1169 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 84D4413E2E3914A200FD1169;
+					};
+				};
+			};
+			buildConfigurationList = 84D441172E39149F00FD1169 /* Build configuration list for PBXProject "HEAT" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D441132E39149F00FD1169;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 84D4411D2E3914A000FD1169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D4411B2E3914A000FD1169 /* HEAT */,
+				84D441282E3914A200FD1169 /* HEATTests */,
+				84D441322E3914A200FD1169 /* HEATUITests */,
+				84D4413E2E3914A200FD1169 /* HEAT Watch App */,
+				84D4414D2E3914A300FD1169 /* HEAT Watch AppTests */,
+				84D441572E3914A300FD1169 /* HEAT Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D4411A2E3914A000FD1169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D441272E3914A200FD1169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D441312E3914A200FD1169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4413D2E3914A200FD1169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4414C2E3914A300FD1169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D441562E3914A300FD1169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D441182E3914A000FD1169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D441252E3914A200FD1169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4412F2E3914A200FD1169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4413B2E3914A200FD1169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4414A2E3914A300FD1169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D441542E3914A300FD1169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D4412B2E3914A200FD1169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D4411B2E3914A000FD1169 /* HEAT */;
+			targetProxy = 84D4412A2E3914A200FD1169 /* PBXContainerItemProxy */;
+		};
+		84D441352E3914A200FD1169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D4411B2E3914A000FD1169 /* HEAT */;
+			targetProxy = 84D441342E3914A200FD1169 /* PBXContainerItemProxy */;
+		};
+		84D441422E3914A200FD1169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D4413E2E3914A200FD1169 /* HEAT Watch App */;
+			targetProxy = 84D441412E3914A200FD1169 /* PBXContainerItemProxy */;
+		};
+		84D441502E3914A300FD1169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D4413E2E3914A200FD1169 /* HEAT Watch App */;
+			targetProxy = 84D4414F2E3914A300FD1169 /* PBXContainerItemProxy */;
+		};
+		84D4415A2E3914A300FD1169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D4413E2E3914A200FD1169 /* HEAT Watch App */;
+			targetProxy = 84D441592E3914A300FD1169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84D441602E3914A300FD1169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D441612E3914A300FD1169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		84D441632E3914A300FD1169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HEAT;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = wecreatethis.HEAT;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wecreatethis.HEAT.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		84D441642E3914A300FD1169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HEAT;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = wecreatethis.HEAT;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wecreatethis.HEAT.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		84D441672E3914A300FD1169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HEAT;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wecreatethis.HEAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D441682E3914A300FD1169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HEAT;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wecreatethis.HEAT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D4416A2E3914A300FD1169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wecreatethis.HEATTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HEAT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HEAT";
+			};
+			name = Debug;
+		};
+		84D4416B2E3914A300FD1169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wecreatethis.HEATTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HEAT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HEAT";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D4416D2E3914A300FD1169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wecreatethis.HEATUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HEAT;
+			};
+			name = Debug;
+		};
+		84D4416E2E3914A300FD1169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wecreatethis.HEATUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HEAT;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D441702E3914A300FD1169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wecreatethis.HEAT-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HEAT Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HEAT Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		84D441712E3914A300FD1169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wecreatethis.HEAT-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HEAT Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HEAT Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		84D441732E3914A300FD1169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wecreatethis.HEAT-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HEAT Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		84D441742E3914A300FD1169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wecreatethis.HEAT-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HEAT Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D441172E39149F00FD1169 /* Build configuration list for PBXProject "HEAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D441602E3914A300FD1169 /* Debug */,
+				84D441612E3914A300FD1169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D441622E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEAT Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D441632E3914A300FD1169 /* Debug */,
+				84D441642E3914A300FD1169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D441662E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D441672E3914A300FD1169 /* Debug */,
+				84D441682E3914A300FD1169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D441692E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEATTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D4416A2E3914A300FD1169 /* Debug */,
+				84D4416B2E3914A300FD1169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D4416C2E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEATUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D4416D2E3914A300FD1169 /* Debug */,
+				84D4416E2E3914A300FD1169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D4416F2E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEAT Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D441702E3914A300FD1169 /* Debug */,
+				84D441712E3914A300FD1169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D441722E3914A300FD1169 /* Build configuration list for PBXNativeTarget "HEAT Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D441732E3914A300FD1169 /* Debug */,
+				84D441742E3914A300FD1169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D441142E39149F00FD1169 /* Project object */;
+}
